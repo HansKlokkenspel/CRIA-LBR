@@ -27,7 +27,7 @@ namespace TheWorld.Models
                     Email = "hans.klokkenspel@theworld.com"
                 };
 
-                await _userManager.CreateAsync(newUser, "password");
+                await _userManager.CreateAsync(newUser, "P@ssw0rd");
             }
 
             if (!_context.Trips.Any())

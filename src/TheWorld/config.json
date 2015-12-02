@@ -1,7 +1,7 @@
 ﻿{
   "AppSettings": {
     "SiteEmailAddress": "some@stuff.com",
-    "GmapsKey" : "Jemoeder"
+    "GmapsKey": "AIzaSyDgwsrWUWMlDvo8FgqGgi0mc4dONOj4ZzU"
   },
   "Data": {
     "WorldContextConnection": "Server=(localdb)\\MSSQLLocalDB;Database=TheWorldDB;Trusted_Connection=true;MultipleActiveResultSets=true;"
