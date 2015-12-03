@@ -26,7 +26,7 @@ namespace TheWorld.Services
             };
 
             var gmapsKey = Startup.Configuration["AppSettings:GmapsKey"];
-            var url = $"https://maps.googleapis.com/maps/api/geocode/json?components=locality:|country:{country}|administrative_area:{location}&key={gmapsKey}";
+            var url = $"https://maps.googleapis.com/maps/api/geocode/json?components=locality:|administrative_area:{location}&key={gmapsKey}";
 
             var client = new HttpClient();
 
